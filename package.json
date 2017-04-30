@@ -1,6 +1,6 @@
 {
   "name": "pagurbation",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Server side pagination",
   "main": "build/pagurbation.js",
   "repository": "https://github.com/shintech/pagurbation.git",
