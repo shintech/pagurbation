@@ -1,0 +1,9 @@
+{
+  "name": "pagurbation",
+  "version": "0.0.1",
+  "description": "Server side pagination",
+  "main": "build/pagurbation.js",
+  "repository": "https://github.com/shintech/pagurbation.git",
+  "author": "Michael Prather",
+  "license": "MIT"
+}
