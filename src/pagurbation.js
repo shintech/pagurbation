@@ -21,12 +21,6 @@ export default function paginate (req, data, pageSize) {
 
   pageCount = total / pageSize
 
-  if (parseInt(pageCount) - pageCount > 0) {
-    pageCount = parseInt(pageCount)
-  } else {
-    pageCount = parseInt(pageCount + 1)
-  }
-
   pageData = {
     pageSize: pageSize,
     total: total,
