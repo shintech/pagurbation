@@ -24,7 +24,7 @@ export default function paginate (req, data, pageSize) {
   pageData = {
     pageSize: pageSize,
     total: total,
-    pageCount: pageCount,
+    pageCount: Math.ceil(pageCount),
     currentPage: currentPage
   }
 
